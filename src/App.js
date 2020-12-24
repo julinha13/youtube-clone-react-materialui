@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core';
 
-import HomePage from './HomePage'
+import HomePage from './Pages/Home/HomePage'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
