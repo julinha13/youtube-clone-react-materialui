@@ -236,27 +236,6 @@ function MenuOptions() {
 }
 
 const useStyles = makeStyles((theme) => ({
-    root: {
-        height: '100vh',
-        backgroundColor: theme.palette.background.dark
-    },
-    appBar: {
-        boxShadow: 'none',
-        zIndex: theme.zIndex.drawer + 1
-    },
-    grow: {
-        flexGrow: 1
-    },
-    appBarIcons: {
-        marginRight: theme.spacing(1.5)
-    },
-    menuIcon: {
-        paddingLeft: theme.spacing(1.5),
-        marginRight: theme.spacing(2)
-    },
-    logo: {
-        height: 25
-    },
     drawer: {
         width: 240,
         flexShrink: 0,
