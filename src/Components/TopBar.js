@@ -12,7 +12,6 @@ function TopBar(props) {
     const classes = useStyles();
     const theme = useTheme();
     return (
-        <div className={classes.root}>
             <AppBar color='inherit' className={classes.appBar}>
                 <Toolbar>
                     <IconButton edge="start" className={classes.menuIcon} aria-label="menu">
@@ -39,7 +38,6 @@ function TopBar(props) {
                     </Button>
                 </Toolbar>
             </AppBar>
-        </div>
     );
 }
 
